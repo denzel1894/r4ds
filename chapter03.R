@@ -364,3 +364,5 @@ batters |>
   geom_smooth(se = TRUE) # confidence region ?
 
 ?geom_smooth
+
+flights
