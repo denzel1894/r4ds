@@ -5,6 +5,7 @@ billboard
 View(billboard)
 glimpse(billboard)
 
+
 billboard |> 
   pivot_longer(
     cols = starts_with("wk"),
@@ -190,8 +191,8 @@ df |>
   ) |> 
   pivot_longer(
     cols = c(bp1,bp2),
-    names_to = "measurement",
-    values_to = "value"
+    names_to = "measurement2",
+    values_to = "value2"
   )
 df
 
